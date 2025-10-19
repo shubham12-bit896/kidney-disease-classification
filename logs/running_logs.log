@@ -38,3 +38,32 @@
 [2025-10-19 19:03:57,158: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<
 
 x==========x]
+[2025-10-20 00:22:52,919: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-20 00:22:52,951: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-20 00:22:52,957: INFO: common: created directory at: artifacts]
+[2025-10-20 00:22:52,961: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-20 00:30:19,421: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-20 00:30:19,431: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-20 00:30:19,439: INFO: common: created directory at: artifacts]
+[2025-10-20 00:30:19,442: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-20 01:54:29,443: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<]
+[2025-10-20 01:54:29,450: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-20 01:54:29,455: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-20 01:54:29,457: INFO: common: created directory at: artifacts]
+[2025-10-20 01:54:29,459: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-20 01:54:29,461: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts\data_ingestion\data.zip]
+[2025-10-20 01:55:06,787: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts\data_ingestion\data.zip]
+[2025-10-20 01:55:09,006: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-20 01:55:09,007: INFO: main: *******************]
+[2025-10-20 01:55:09,008: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-10-20 01:55:09,014: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-10-20 01:55:09,019: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-10-20 01:55:09,021: INFO: common: created directory at: artifacts]
+[2025-10-20 01:55:09,023: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-10-20 01:55:10,193: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-20 01:55:10,655: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-10-20 01:55:11,049: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
